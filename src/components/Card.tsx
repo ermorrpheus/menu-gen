@@ -18,7 +18,7 @@ const Card: React.FC<CardProps> = ({
 	return (
 		<div className="bg-white rounded-lg shadow-md p-4 m-2 flex flex-col justify-between">
 			<h2 className="text-dark-purple text-xl font-bold mb-2">{day}</h2>
-			<h3 className="text-purple-600 text-lg font-semibold mb-2">
+			<h3 className="text-purple-600 text-md font-semibold mb-2">
 				{meal?.name ? meal.name : 'Nothing to see here.'}
 			</h3>
 			<div className="w-full h-36 relative">
